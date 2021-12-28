@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
       - name: portfolio
-        image: $DOCKER_IMAGE_NAME:$BUILD_NUMBER
+        image: josh1991/king-httpd:king-httpd
         ports:
         - containerPort: 4000
         livenessProbe:
